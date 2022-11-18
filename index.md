@@ -24,7 +24,7 @@ hero:
       link: /guide/why
     - theme: alt
       text: 在 GitHub 中查看
-      link: https://github.com/elonehoo/tl-serve-list
+      link: https://github.com/benewy/template
 features:
 - title: 自定义SQL的持久层框架
   details: 自定义 SQL、存储过程以及高级映射的持久层框架。
