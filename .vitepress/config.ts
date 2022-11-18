@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { description, font, github, name, releases} from './meta'
 
-const version = '0.0.1'
+const version = '0.0.2'
 
 export default defineConfig({
   base:'/docs/',
