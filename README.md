@@ -39,4 +39,4 @@
 
 ## License
 
-[GNU Lesser General Public](./LICENSE) License © 2022 杭州融惠科技数据有限公司
+[GNU Lesser General Public](https://github.com/benewy/docs/blob/main/LICENSE) License © 2022 杭州融惠科技数据有限公司
