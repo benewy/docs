@@ -28,7 +28,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
     editLink: {
-      pattern: 'https://github.com/elonehoo/tl-serve-list/tree/main/docs/:path',
+      pattern: 'https://github.com/benewy/docs/tree/main/docs/:path',
       text: '为此页提供修改建议',
     },
     socialLinks: [
@@ -41,7 +41,7 @@ export default defineConfig({
     nav: [
       { text: '指引', link: '/guide/' },
       { text: '前端', link: '/web/' },
-      { text: '前端组件', link: '/components/' },
+      { text: '前端组件', link: '/components/form' },
       { text: '后端', link: '/app/' },
       { text: '后端工具', link: '/utils/' },
       { text: '常见问题', link: '/faq/' },
@@ -81,18 +81,67 @@ export default defineConfig({
               text: '前端介绍',
               link: '/web/'
             },
-          ]
-        },
-        {
-          text: '深入前端',
-          items:[
-
+            {
+              text: 'npm script',
+              link: '/web/npm-script'
+            },
+            {
+              text: '目录说明',
+              link: '/web/folder'
+            },
+            {
+              text: '项目配置项',
+              link: '/web/settings'
+            },
+            {
+              text: '路由',
+              link: '/web/router'
+            },
+            {
+              text: '联调',
+              link: '/web/ajax'
+            },
+            {
+              text: '组件注册',
+              link: '/web/component'
+            },
+            {
+              text: '样式',
+              link: '/web/design'
+            },
+            {
+              text: '引入外部模块',
+              link: '/web/lib'
+            },
+            {
+              text: '构建&部署',
+              link: '/web/deploy'
+            },
           ]
         },
         {
           text: '前端组件',
           items:[
-
+            {
+              text: '表单',
+              link: '/components/form',
+            },
+            {
+              text: '表格',
+              link: '/components/table',
+            },
+            {
+              text: '图片上传',
+              link: '/components/upload',
+            },
+            {
+              text: '滑块验证码',
+              link: '/components/market-captcha',
+            },
+            {
+              text: '弹窗',
+              link: '/components/modal',
+            }
           ]
         },
         {
