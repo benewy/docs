@@ -4,6 +4,7 @@ import { description, font, github, name, releases} from './meta'
 const version = '0.0.1'
 
 export default defineConfig({
+  base:'/docs/',
   lang: 'zh-CN',
   title: name,
   description,
